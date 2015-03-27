@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dBt-4l-4wS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="cx0-dW-KdY">
+            <objects>
+                <navigationController id="dBt-4l-4wS" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y5J-FX-UX3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="PGf-N7-n2Z" kind="relationship" relationship="rootViewController" id="nSR-Tx-noF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FvI-fv-z7u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-469" y="414"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bNN-Lc-qoQ">
+            <objects>
+                <viewController id="PGf-N7-n2Z" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xId-JN-Pfi"/>
+                        <viewControllerLayoutGuide type="bottom" id="w6X-i4-k46"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V0w-5G-MN7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZE-vv-pue">
+                                <rect key="frame" x="255" y="285" width="90" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="26p-bL-E0e"/>
+                                    <constraint firstAttribute="height" constant="30" id="dqq-ur-rBg"/>
+                                </constraints>
+                                <state key="normal" title="微博登陆">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginClick" destination="PGf-N7-n2Z" eventType="touchUpInside" id="8lu-Hz-kw4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="vZE-vv-pue" secondAttribute="centerX" id="2GM-Ds-paM"/>
+                            <constraint firstAttribute="centerY" secondItem="vZE-vv-pue" secondAttribute="centerY" id="Up4-Kw-hbY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kph-Mb-yo0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D3v-TK-oZI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159" y="414"/>
+        </scene>
+    </scenes>
+</document>

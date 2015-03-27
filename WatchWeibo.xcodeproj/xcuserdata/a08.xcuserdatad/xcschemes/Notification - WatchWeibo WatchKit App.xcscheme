@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0620"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "374B80481AC2551300D5F106"
+               BuildableName = "WatchWeibo WatchKit App.app"
+               BlueprintName = "WatchWeibo WatchKit App"
+               ReferencedContainer = "container:WatchWeibo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "374B7FDD1AC2457B00D5F106"
+               BuildableName = "WatchWeibo.app"
+               BlueprintName = "WatchWeibo"
+               ReferencedContainer = "container:WatchWeibo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "374B80391AC2551300D5F106"
+               BuildableName = "WatchWeibo WatchKit Extension.appex"
+               BlueprintName = "WatchWeibo WatchKit Extension"
+               ReferencedContainer = "container:WatchWeibo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "374B80701AC25BD100D5F106"
+               BuildableName = "LYRWeiboKitTests.xctest"
+               BlueprintName = "LYRWeiboKitTests"
+               ReferencedContainer = "container:WatchWeibo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "374B80701AC25BD100D5F106"
+               BuildableName = "LYRWeiboKitTests.xctest"
+               BlueprintName = "LYRWeiboKitTests"
+               ReferencedContainer = "container:WatchWeibo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "374B80481AC2551300D5F106"
+            BuildableName = "WatchWeibo WatchKit App.app"
+            BlueprintName = "WatchWeibo WatchKit App"
+            ReferencedContainer = "container:WatchWeibo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "WatchWeibo WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/WatchWeibo">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "374B80481AC2551300D5F106"
+            BuildableName = "WatchWeibo WatchKit App.app"
+            BlueprintName = "WatchWeibo WatchKit App"
+            ReferencedContainer = "container:WatchWeibo.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "374B80481AC2551300D5F106"
+            BuildableName = "WatchWeibo WatchKit App.app"
+            BlueprintName = "WatchWeibo WatchKit App"
+            ReferencedContainer = "container:WatchWeibo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/WatchWeibo">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "374B80481AC2551300D5F106"
+            BuildableName = "WatchWeibo WatchKit App.app"
+            BlueprintName = "WatchWeibo WatchKit App"
+            ReferencedContainer = "container:WatchWeibo.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "374B80481AC2551300D5F106"
+            BuildableName = "WatchWeibo WatchKit App.app"
+            BlueprintName = "WatchWeibo WatchKit App"
+            ReferencedContainer = "container:WatchWeibo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
