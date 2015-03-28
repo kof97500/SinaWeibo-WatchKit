@@ -90,6 +90,7 @@
 		3773BC9F1AC3A82A000B4262 /* LYRWeiboParametersRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3773BC9D1AC3A82A000B4262 /* LYRWeiboParametersRequest.m */; };
 		3773BCA41AC3B36A000B4262 /* LYRHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3773BCA31AC3B36A000B4262 /* LYRHttpTool.m */; };
 		378B8A6E1AC52F340011D265 /* LYRNoLoginInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378B8A6D1AC52F340011D265 /* LYRNoLoginInterfaceController.m */; };
+		4CC43D051AC6E2D8005A0812 /* LYRAppGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC43D041AC6E2D8005A0812 /* LYRAppGroup.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -276,6 +277,7 @@
 		3773BCA31AC3B36A000B4262 /* LYRHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRHttpTool.m; sourceTree = "<group>"; };
 		378B8A6C1AC52F340011D265 /* LYRNoLoginInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRNoLoginInterfaceController.h; sourceTree = "<group>"; };
 		378B8A6D1AC52F340011D265 /* LYRNoLoginInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRNoLoginInterfaceController.m; sourceTree = "<group>"; };
+		4CC43D041AC6E2D8005A0812 /* LYRAppGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRAppGroup.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -515,6 +517,7 @@
 				374B80871AC25BE200D5F106 /* Lib */,
 				374B806B1AC25BD100D5F106 /* LYRWeiboKit.h */,
 				374B80691AC25BD100D5F106 /* Supporting Files */,
+				4CC43D041AC6E2D8005A0812 /* LYRAppGroup.h */,
 			);
 			path = LYRWeiboKit;
 			sourceTree = "<group>";
@@ -727,6 +730,7 @@
 				374B80981AC25BF500D5F106 /* FMDatabasePool.h in Headers */,
 				374B80CB1AC267B500D5F106 /* JSONHTTPClient.h in Headers */,
 				374B80941AC25BF500D5F106 /* FMDatabase.h in Headers */,
+				4CC43D051AC6E2D8005A0812 /* LYRAppGroup.h in Headers */,
 				374B80D61AC267EA00D5F106 /* LYRWeibo.h in Headers */,
 				374B80BE1AC267B500D5F106 /* JSONModel.h in Headers */,
 				374B809C1AC25BF500D5F106 /* FMDB.h in Headers */,
@@ -883,6 +887,7 @@
 					};
 					374B80391AC2551300D5F106 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = WHK5UW73BE;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;

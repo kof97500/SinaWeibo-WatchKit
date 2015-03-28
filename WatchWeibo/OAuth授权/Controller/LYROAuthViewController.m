@@ -11,9 +11,9 @@
 #import "LYRAuthInfo.h"
 #import "LYRAuthInfoTool.h"
 
-#define LYRAppKey @""
-#define LYRRedirectURL @""
-#define LYRAppSecret @""
+#define LYRAppKey @"" //新浪提供的AppKey
+#define LYRRedirectURL @""//自己填写的应用地址
+#define LYRAppSecret @""//新浪提供的APPSecret
 @interface LYROAuthViewController ()<UIWebViewDelegate>
 
 @end

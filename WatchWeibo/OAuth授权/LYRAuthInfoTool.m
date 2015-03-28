@@ -8,9 +8,8 @@
 
 #import "LYRAuthInfoTool.h"
 #import "LYRAuthInfo.h"
+#import "LYRAppGroup.h"
 
-
-#define LYRGroupID @"group.lyrWeibo.demo" //APP 数据共享标示
 #define LYRInfoPath [[[[NSFileManager defaultManager]containerURLForSecurityApplicationGroupIdentifier:LYRGroupID]URLByAppendingPathComponent:@"authInfo.data"]path]
 @implementation LYRAuthInfoTool
 

@@ -12,8 +12,8 @@
 #import "LYRAuthInfo.h"
 #import "LYRAuthInfoTool.h"
 #import "LYRWeiboParametersRequest.h"
+#import "LYRAppGroup.h"
 
-#define LYRGroupID @"group.lyrWeibo.demo" //APP 数据共享标示
 #define LYRDataBasePath [[[[NSFileManager defaultManager]containerURLForSecurityApplicationGroupIdentifier:LYRGroupID]URLByAppendingPathComponent:@"weibo.sqlite"]path] //数据库路径
 @interface LYRWeiboTool ()
 
