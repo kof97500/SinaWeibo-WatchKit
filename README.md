@@ -1,14 +1,14 @@
 # SinaWeibo-WatchKit
 WatchKit 新浪微博Demo
 -------
-环境：Xcode 6.2 IOS 8.2<br>
-使用三方框架：AFNetworking FMDB JsonModel<br>
+环境：Xcode 6.2 , IOS 8.2<br>
+使用三方框架：AFNetworking , FMDB , JsonModel<br>
 ##效果：
 ![](https://github.com/kof97500/SinaWeibo-WatchKit/raw/master/images/weibo.gif) <br>
 ###demo简介：
 实现功能：watch模拟器与iphone模拟器通讯，<br>
 让iphone向新浪微博请求微博数据并保存至本地数据库，<br>
-再让watch通过app Group 获取数据并显示。
+再让watch通过app Group 获取数据并显示。<br>
 ###运行步骤：
 ####1.申请新浪微博开放平台接口使用<br>
 由于使用了新浪微博接口，<br>
@@ -40,5 +40,10 @@ WatchKit 新浪微博Demo
 ![](https://github.com/kof97500/SinaWeibo-WatchKit/raw/master/images/changeAppGroup02.png)<br>
 6.修改LYRWeiboKit文件夹中LYRAppGroup.h文件的App Group标识宏
 ![](https://github.com/kof97500/SinaWeibo-WatchKit/raw/master/images/changeAppGroup03.png)<br>
-
+###结束
+完成以上步骤后，应该就可以运行了。。。<br>
+本人第一次在gitHub上保存代码，<br>
+也不是什么特别高端有用的，给其他初学者一点启发吧。。。<br>
+希望大家共同进步~~~<br>
+[我的邮箱：kof9750@gmail.com](mailto:kof9750@gmail.com)
 
