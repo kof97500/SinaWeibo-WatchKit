@@ -31,7 +31,7 @@ WatchKit 新浪微博Demo
 ![](https://github.com/kof97500/SinaWeibo-WatchKit/raw/master/images/changeBundleId04.png)<br>
 不然模拟器运行时会报：SPErrorInvalidBundleNoGizmoBinaryMessage错误<br>
 5.修改target的App Group 标识<br>
-修改两个target的App Group标识
+修改两个target的App Group标识<br>
 ![](https://github.com/kof97500/SinaWeibo-WatchKit/raw/master/images/changeAppGroup01.png)<br>
 ![](https://github.com/kof97500/SinaWeibo-WatchKit/raw/master/images/changeAppGroup02.png)<br>
 6.修改LYRWeiboKit文件夹中LYRAppGroup.h文件的App Group标识宏
