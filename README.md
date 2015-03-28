@@ -1,6 +1,10 @@
 # SinaWeibo-WatchKit
 WatchKit 新浪微博Demo
 -------
+环境：Xcode 6.2 IOS 8.2<br>
+使用三方框架：AFNetworking FMDB JsonModel<br>
+##效果：
+![](https://github.com/kof97500/SinaWeibo-WatchKit/raw/master/images/weibo.gif) <br>
 ###demo简介：
 实现功能：watch模拟器与iphone模拟器通讯，<br>
 让iphone向新浪微博请求微博数据并保存至本地数据库，<br>
